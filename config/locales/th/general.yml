@@ -118,8 +118,8 @@ th:
       start_debate: เขียนข้อเสนอ
       title: ข้อเสนอ
       section_header:
-        icon_alt: ไอคอนข้อเสนอ 
-        title: ข้อเสนอถึงพรรค
+        icon_alt: ไอคอนนโยบายบางแค
+        title: นโยบายบางแค
         help: ช่วยข้อเสนอ
       section_footer:
         title: ช่วยข้อเสนอ
