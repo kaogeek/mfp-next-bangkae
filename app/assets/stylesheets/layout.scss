@@ -1175,7 +1175,8 @@ footer {
 
       &.custom-social-group {
         .social-button-twitter,
-        .social-button-facebook {
+        .social-button-facebook,
+        .social-button-line {
           cursor: pointer;
           width: rem-calc(36);
           height: rem-calc(36);
@@ -1204,6 +1205,10 @@ footer {
 
         .social-button-facebook {
           background-image: image-url("facebook-logo.png");
+        }
+
+        .social-button-line {
+          background-image: image-url("line-logo.png");
         }
       }
     }
