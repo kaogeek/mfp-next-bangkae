@@ -10,14 +10,12 @@
       <%= raw setting["html.per_page_code_body"] %>
       <div class="wrapper_devise">
         <div class="wrapper_devise_left">
-          <%= back_link_to debates_path %>
-          <%= image_tag(image_path_for("logo_header.png"), class: "float-left", alt: setting["org_name"]) %>
-          <div class="list_rule">
-            <h3 class ="title_login_header" ><%= t("devise_views.rule.title") %></h3>
-            <h5 class ="title_login"><%= t("devise_views.rule.rule_1") %></h5>
-            <h5 class ="title_login"><%= t("devise_views.rule.rule_2") %></h5>
-            <h5 class ="title_login"><%= t("devise_views.rule.rule_3") %></h5>
-            <h5 class ="title_login"><%= t("devise_views.rule.rule_4") %></h5>
+          <div class="wrapper-brand">
+            <%= back_link_to debates_path %>
+            <%= image_tag(image_path_for("logo_header.png"), class: "logo-brand", alt: setting["org_name"]) %>
+          </div>
+          <div class="wrapper-footer">
+            <%= image_tag(image_path_for("bangkae_footer_left.png"), class: "", alt: setting[""]) %>
           </div>
         </div>
         <div class="wrapper_devise_right">

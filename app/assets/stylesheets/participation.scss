@@ -758,7 +758,7 @@
   @include full-width-border(bottom, 1px solid #eee);
   // Override styles for MFP-NEXT
   // background: #fafafa;
-  background: #fff;
+  background: #002844;
   margin-top: -$line-height;
   margin-bottom: $line-height;
   padding-bottom: $line-height / 2;
@@ -770,6 +770,9 @@
     // text-transform: uppercase;
     font-size: rem-calc(32);
     font-weight: normal;
+    background-image: linear-gradient(90deg, #fff 53%, #ff6a12 47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 

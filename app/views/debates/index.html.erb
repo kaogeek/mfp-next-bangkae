@@ -104,13 +104,20 @@
           <div class="sidebar-divider"></div>
           <h1 class="sidebar-title"><%= t("shared.tags_cloud.tags") %></h1>
           <br>
-          <a href="/debates?search=ผู้แทนฯ+ที่คุณอยากเห็น">ผู้แทนฯ ที่คุณอยากเห็น</a>
-          <a href="/debates?search=สื่อของพรรค">สื่อของพรรค</a>
-          <a href="/debates?search=นำเสนอนโยบาย">นำเสนอนโยบาย</a>
-          <a href="/debates?search=งานสภา">งานสภา</a>
-          <a href="/debates?search=การทำงานพื้นที่">การทำงานพื้นที่</a>
-          <a href="/debates?search=การสร้างเครือข่ายและกิจกรรมสมาชิก">การสร้างเครือข่ายและกิจกรรมสมาชิก</a>
-          <a href="/debates?search=ระดมทุน">ระดมทุน</a>
+          <a href="/debates?search=พื้นที่สีเขียว">พื้นที่สีเขียว</a>
+          <a href="/debates?search=สถานที่ออกกำลังกาย">สถานที่ออกกำลังกาย</a>
+          <a href="/debates?search=สาธารณสุข">สาธารณสุข</a>
+          <a href="/debates?search=การศึกษา">การศึกษา</a>
+          <a href="/debates?search=การเดินทางสัญจร">การเดินทางสัญจร</a>
+          <a href="/debates?search=สาธารณูปโภค">สาธารณูปโภค</a>
+          <a href="/debates?search=การระบายน้ำ">การระบายน้ำ</a>
+          <a href="/debates?search=ความปลอดภัย">ความปลอดภัย</a>
+          <a href="/debates?search=ชุมชน">ชุมชน</a>
+          <a href="/debates?search=การบริการภาครัฐ">การบริการภาครัฐ</a>
+          <a href="/debates?search=เสริมรายได้+สร้างอาชีพ">เสริมรายได้ สร้างอาชีพ</a>
+          <a href="/debates?search=การจัดระเบียบ+และความสะอาด">การจัดระเบียบ และความสะอาด</a>
+          <a href="/debates?search=การจัดการขยะ">การจัดการขยะ</a>
+          <a href="/debates?search=การปรับปรุงกฎหมาย">การปรับปรุงกฎหมาย</a>
         </div>
       </aside>
     </div>
@@ -166,13 +173,13 @@
   }
 
   $( document ).ready(function() {
-    if (!localStorage.getItem(key)) {
-      clickDialog();
-    } else {
-      if (localStorage.getItem(key) < getToDate(0).getTime()) {
-        clickDialog();
-        localStorage.removeItem(key);
-      }
-    }
+    # if (!localStorage.getItem(key)) {
+    #   clickDialog();
+    # } else {
+    #   if (localStorage.getItem(key) < getToDate(0).getTime()) {
+    #     clickDialog();
+    #     localStorage.removeItem(key);
+    #   }
+    # }
   });
 </script>

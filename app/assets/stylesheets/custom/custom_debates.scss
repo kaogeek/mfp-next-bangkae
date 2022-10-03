@@ -124,6 +124,10 @@
       border-radius: 22px;
       padding: 12px;
       border: $input-border;
+
+      &:hover {
+        color: #ff6a12;
+      }
     }
   }
 }
