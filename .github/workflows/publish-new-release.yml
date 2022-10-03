@@ -18,7 +18,7 @@ jobs:
         with:
           delete_release: true # default: false
           tag_name: latest # tag name to delete
-          repo: kaogeek/mfp-next # target repo (optional). defaults to repo running this action
+          repo: kaogeek/mfp-next-bangkae # target repo (optional). defaults to repo running this action
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Release
