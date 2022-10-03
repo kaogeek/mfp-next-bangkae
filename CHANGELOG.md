@@ -1668,3 +1668,5 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 [0.10.0]: https://github.com/consul/consul/compare/v0.9...v0.10
 [0.9.0]: https://github.com/consul/consul/compare/v0.8...v0.9
 [0.8.0]: https://github.com/consul/consul/compare/v0.7...v0.8
+
+#####
