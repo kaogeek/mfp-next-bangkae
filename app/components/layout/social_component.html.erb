@@ -1,13 +1,23 @@
-<div class="social">
+<div class="social custom-social-group">
   <ul>
     <% sites.each do |name, url| %>
       <li>
-        <%= link_to "#{url}/#{setting["#{name}_handle"]}", target: "_blank", title: link_title(name) do %>
-          <span class="show-for-sr"><%= link_text(name) %></span>
-          <span class="icon-<%= name %>" aria-hidden="true"></span>
-        <% end %>
+        <div class="social-button-<%= name %>" id="social-button-<%= name %>">
+          <%= link_to "#{url}/#{setting["#{name}_handle"]}", target: "_blank", title: link_title(name) do %>
+            <span class="show-for-sr"><%= link_text(name) %></span>
+            <span class="icon-<%= name %>" aria-hidden="true"></span>
+          <% end %>
+        </div>
       </li>
     <% end %>
+    <li>
+      <div class="social-button-line" id="social-button-line">
+        <%= link_to "https://line.me/R/ti/p/@410ftloi", target: "_blank", title: link_title('line') do %>
+          <span class="show-for-sr"><%= link_text('line') %></span>
+          <span class="icon-line" aria-hidden="true"></span>
+        <% end %>
+      </div>
+    </li>
 
     <%= raw footer_content_block %>
   </ul>

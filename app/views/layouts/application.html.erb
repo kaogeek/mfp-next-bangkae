@@ -43,7 +43,15 @@
       <%= yield %>
     </div>
     <div class="footer">
-      <%= render "layouts/footer" %>
+      <div class="bangkae-branding-bottom">
+        <div class="bangkae-branding-bottom-wrapper">
+        <%= image_tag(image_path_for("bangkae_footer_left.png"), class: "", alt: setting[""]) %>
+        <%= image_tag(image_path_for("bangkae_footer_right.png"), class: "", alt: setting[""]) %>
+        </div>
+      </div>
+      <div class="bangkae-branding-detail">
+        <%= render "layouts/footer" %>
+      </div>
     </div>
   </body>
 </html>

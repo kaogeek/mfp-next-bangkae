@@ -708,7 +708,8 @@ body > header,
 .menu-button {
   border: 1px solid;
   border-radius: $button-radius;
-  color: inherit;
+  background: #ff6a12;
+  color: #fff;
   padding: 0.6em;
 }
 
@@ -1074,15 +1075,147 @@ footer {
   background: #212121;
   clear: both;
   margin-top: $line-height * 2;
-  padding-bottom: $line-height;
-  padding-top: $line-height;
 
   .public & {
     @include full-width-background;
   }
 
-  .social {
-    color: #f57832;
+  .bangkae-branding-bottom {
+    background: #ff6a12;
+    @include full-width-background;
+
+    > .bangkae-branding-bottom-wrapper {
+      overflow: hidden;
+      height: 260px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+
+      @include breakpoint(xlarge down) {
+        height: 240px;
+      }
+
+      @media (max-width: 479px) {
+        height: 220px;
+      }
+
+      > img {
+        &:first-of-type {
+          position: absolute;
+          left: 4vw;
+          width: 26vw;
+          bottom: -8vw;
+          z-index: 1;
+
+          @media (max-width: 1440px) {
+            width: 32vw;
+          }
+
+          @include breakpoint(xlarge down) {
+            width: 34vw;
+            bottom: -10vw;
+          }
+
+          @include breakpoint(large down) {
+            width: 430px;
+            bottom: -140px;
+          }
+
+          @media (max-width: 767px) {
+            z-index: 0;
+            width: 340px;
+            bottom: -40px;
+          }
+
+          @media (max-width: 479px) {
+            width: 250px;
+            bottom: 0;
+          }
+        }
+
+        &:last-of-type {
+          position: absolute;
+          width: 900px;
+          margin-bottom: -40px;
+
+          @include breakpoint(xlarge down) {
+            width: 760px;
+            margin-bottom: -20px;
+          }
+
+          @include breakpoint(large down) {
+            width: 700px;
+            margin-bottom: 0px;
+          }
+
+          @media (max-width: 991px) {
+            width: 520px;
+            margin-bottom: 40px;
+          }
+
+          @media (max-width: 767px) {
+            width: 260px;
+            margin-bottom: 100px;
+            z-index: 1;
+          }
+
+          @media (max-width: 479px) {
+            width: 160px;
+            margin-bottom: 120px;
+          }
+        }
+      }
+    }
+  }
+
+  .bangkae-branding-detail {
+    padding-bottom: $line-height;
+    padding-top: $line-height;
+
+    .social {
+      // color: #f57832;
+
+      &.custom-social-group {
+        .social-button-twitter,
+        .social-button-facebook,
+        .social-button-line {
+          cursor: pointer;
+          width: rem-calc(36);
+          height: rem-calc(36);
+          background-size: 100%;
+          background-repeat: no-repeat;
+
+          ::before {
+            content: "";
+          }
+
+          > a {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            display: block;
+
+            &:active {
+              outline: 0;
+            }
+          }
+        }
+
+        .social-button-twitter {
+          background-image: image-url("twitter-logo.png");
+        }
+
+        .social-button-facebook {
+          background-image: image-url("facebook-logo.png");
+        }
+
+        .social-button-line {
+          background-image: image-url("line-logo.png");
+        }
+      }
+    }
   }
 }
 
