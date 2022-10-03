@@ -1109,6 +1109,10 @@ footer {
           bottom: -8vw;
           z-index: 1;
 
+          @media (max-width: 1440px) {
+            width: 32vw;
+          }
+
           @include breakpoint(xlarge down) {
             width: 34vw;
             bottom: -10vw;
