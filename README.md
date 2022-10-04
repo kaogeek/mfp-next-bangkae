@@ -1,11 +1,11 @@
 <!--
-  Title: ก้าวไกล NEXT
+  Title: บางแค ³
   Description: ขีดเขียนเส้นทางใหม่ ก้าวไกลไปด้วยกัน
 -->
 
 ![CONSUL logo](https://github.com/kaogeek/mfp-next/raw/main/public/mfp-next_logo.jpg)
 
-# ก้าวไกล NEXT
+# บางแค ³
 
 ขีดเขียนเส้นทางใหม่ ก้าวไกลไปด้วยกัน
 
@@ -18,7 +18,7 @@ This is the opensource code repository cloned from **CONSUL** (https://github.co
 
 ## Configuration for development and test environments
 
-**Prerequisites:** install *git*, *Ruby 2.7.6*, *CMake*, *pkg-config*, *shared-mime-info*, *Node.js* and *PostgreSQL (>=9.5)*, first before proceeding to the next steps. Some of them could be installed by using the following commands.
+**Prerequisites:** install _git_, _Ruby 2.7.6_, _CMake_, _pkg-config_, _shared-mime-info_, _Node.js_ and _PostgreSQL (>=9.5)_, first before proceeding to the next steps. Some of them could be installed by using the following commands.
 
 ```bash
 #bundler
@@ -30,6 +30,7 @@ brew install pkg-config
 #PostgreSQL
 brew install postgresql
 ```
+
 Then, install this project by:
 
 ```bash
@@ -57,13 +58,13 @@ bin/rspec
 
 You can use the default admin user from the seeds file:
 
- **user:** admin@consul.dev
- **pass:** 12345678
+**user:** admin@consul.dev
+**pass:** 12345678
 
 But for some actions like voting, you will need a verified user, the seeds file also includes one:
 
- **user:** verified@consul.dev
- **pass:** 12345678
+**user:** verified@consul.dev
+**pass:** 12345678
 
 ## Configuration for production environments
 
