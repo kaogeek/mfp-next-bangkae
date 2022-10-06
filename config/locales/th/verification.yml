@@ -22,13 +22,13 @@ th:
           # TODO
           success: ขอบคุณสำหรับการร้องขอของคุณ <b>maximum security code (only required for the final votes)</b>. In a few days we will send it to the address featuring in the data we have on file. Please remember that, if you prefer, you can collect your code from any of the Citizen Support Offices.
       edit:
-        see_all: ดูข้อเสนอ
+        see_all: ดูนโยบาย
         title: จดหมายร้องขอ
       errors:
         incorrect_code: รหัสยืนยันไม่ถูกต้อง
       new:
         explanation: "ในการลงคะแนนสำหรับโครงการงบประมาณคุณสามารถ:"
-        go_to_index: ดูข้อเสนอ
+        go_to_index: ดูนโยบาย
         office: ตรวจสอบกับสำนักงานสนับสนุนประชาชน
         send_letter: ส่งจดหมายพร้อมรหัส
         title: ยินดีด้วย!
@@ -89,10 +89,10 @@ th:
     step_1: ที่อยู่อาศัย
     step_2: รหัสยืนยัน
     step_3: การตรวจสอบขั้นสุดท้าย
-    user_permission_debates: เขียนข้อเสนอใหม่
+    user_permission_debates: เขียนนโยบายใหม่
     user_permission_info: การยืนยันข้อมูลของคุณคุณจะสามารถ...
-    user_permission_proposal: มีส่วนร่วมกับข้อเสนอ
-    user_permission_support_proposal: สนับสนุนข้อเสนอ
+    user_permission_proposal: มีส่วนร่วมกับนโยบาย
+    user_permission_support_proposal: สนับสนุนนโยบาย
     user_permission_votes: โหวตโครงการงบประมาณ
     verified_user:
       form:

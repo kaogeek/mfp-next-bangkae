@@ -64,7 +64,7 @@ th:
       next_phase: ขั้นตอนต่อไป
       prev_phase: ขั้นตอนก่อนหน้า
       current_phase: ขั้นตอนปัจจุบัน
-      map: ข้อเสนอการลงทุนด้านงบประมาณอยู่ในตำแหน่งทางภูมิศาสตร์
+      map: นโยบายการลงทุนด้านงบประมาณอยู่ในตำแหน่งทางภูมิศาสตร์
       finished_budgets: งบประมาณแบบมีส่วนร่วมเสร็จสมบูรณ์
       see_results: ดูผลลัพธ์
       section_footer:
@@ -77,7 +77,7 @@ th:
         subtitle: "%{heading} (%{price})"
         subtitle_without_price: "%{heading}"
         tag_category_label: "หมวดหมู่"
-        tags_instructions: "ติดแท็กข้อเสนอนี้. คุณสามารถเลือกจากหมวดหมู่ที่เสนอหรือคุณสามารถเพิ่มเติมของคุณเอง"
+        tags_instructions: "ติดแท็กนโยบายนี้. คุณสามารถเลือกจากหมวดหมู่ที่เสนอหรือคุณสามารถเพิ่มเติมของคุณเอง"
         tags_label: แท็ก
         tags_placeholder: "ป้อนแท็กที่คุณต้องการใช้ โดยคั่นด้วยเครื่องหมายจุลภาค (',')"
         map_location: "ที่ตั้งแผนที่"
@@ -96,10 +96,10 @@ th:
           my_ballot: บัตรลงคะแนนของฉัน
           voted_info:
             knapsack:
-              one: "<strong>คุณโยนข้อเสนอที่ด้วยค่าใช้จ่าย %{amount_spent}</strong>"
+              one: "<strong>คุณโยนนโยบายที่ด้วยค่าใช้จ่าย %{amount_spent}</strong>"
               other: "<strong>คุณโหวต %{count} ค่าใช้จ่าย %{amount_spent}</strong>"
             approval:
-              one: "<strong>คุณโหวตหนึ่งข้อเสนอ</strong>"
+              one: "<strong>คุณโหวตหนึ่งนโยบาย</strong>"
               other: "<strong>คุณโหวต %{count} หัวข้อ</strong>"
           change_vote_info:
             knapsack: "คุณสามารถ %{link} ได้ตลอดเวลาจนถึง %{phase_end_date}. ไม่ต้องใช้จ่ายเงินทั้งหมดที่มีอยู่."

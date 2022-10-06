@@ -32,8 +32,8 @@ th:
         one: "Comment"
         other: "Comments"
       debate:
-        one: "ข้อเสนอ"
-        other: "ข้อเสนอ"
+        one: "นโยบาย"
+        other: "นโยบาย"
       tag:
         one: "Tag"
         other: "Tags"
@@ -250,7 +250,7 @@ th:
         title: "Title"
       debate/translation:
         title: "หัวข้อ"
-        description: "เขียนข้อเสนอ"
+        description: "เขียนนโยบาย"
       proposal:
         author: "Author"
         title: "Title"
