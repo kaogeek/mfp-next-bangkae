@@ -10,8 +10,8 @@ th:
       public_interests_user_title_list: แท็กเนื้อหาผู้ใช้งานที่ติดตาม
       save_changes_submit: บันทึกการแก้ไข
       recommendations: การแนะนำ
-      recommend_debates_to_me: แนะนำข้อเสนอที่น่าสนใจ
-      recommend_proposals_to_me: แนะนำข้อเสนอให้ฉัน
+      recommend_debates_to_me: แนะนำนโยบายที่น่าสนใจ
+      recommend_proposals_to_me: แนะนำนโยบายให้ฉัน
       title: จัดการบัญชี
       user_permission_info: บัญชีของคุณสามารถ...
       user_permission_title: การมีส่วนร่วม
@@ -22,7 +22,7 @@ th:
       activities_public: เก็บรักษารายการที่แสดงความคิดเห็น
       follow_public: เก็บรักษารายการที่ติดตาม
       notifications: การแจ้งเตือน
-      when_someone_comments_on_my_contents: แจ้งเตือนทางอีเมลเมื่อมีคนมาคอมเมนท์ในข้อเสนอ
+      when_someone_comments_on_my_contents: แจ้งเตือนทางอีเมลเมื่อมีคนมาคอมเมนท์ในนโยบาย
       when_someone_replies_to_my_comments: แจ้งเตือนทางอีเมลเมื่อมีคนมาตอบคอมเมนท์
       receive_relevant_information_by_email: รับข้อมูลอื่นๆ ทางอีเมล
       receive_emails_about_direct_messages: แจ้งเตือนทางอีเมลเมื่อมีคนส่งข้อความ
@@ -77,7 +77,7 @@ th:
   debates:
     create:
       form:
-        submit_button: ส่งข้อเสนอ
+        submit_button: ส่งนโยบาย
     debate:
       comments:
         one: 1 ความคิดเห็น
@@ -88,10 +88,10 @@ th:
         other: "%{count} คะแนน"
         zero: 0 คะแนน
     edit:
-      editing: แก้ไขข้อเสนอ
+      editing: แก้ไขนโยบาย
       form:
-        submit_button: บันทึกข้อเสนอ
-      show_link: ดูข้อเสนอ
+        submit_button: บันทึกนโยบาย
+      show_link: ดูนโยบาย
     form:
       tags_instructions: แท็กการอภิปราย
       tags_placeholder: "ป้อนแท็กที่คุณต้องการใช้ โดยคั่นด้วยเครื่องหมายจุลภาค (',')"
@@ -115,27 +115,27 @@ th:
         button: ค้นหา
         placeholder: ค้นหา...
         title: ค้นหา
-      start_debate: เขียนข้อเสนอ
-      title: ข้อเสนอ
+      start_debate: เขียนนโยบาย
+      title: นโยบาย
       section_header:
         icon_alt: ไอคอนนโยบายบางแค
         title: นโยบายบางแค
-        help: ช่วยข้อเสนอ
+        help: ช่วยนโยบาย
       section_footer:
-        title: ช่วยข้อเสนอ
-        description: เปิดการข้อเสนอเพื่อแชร์ความคิดเห็นอื่นๆกับหัวข้อที่คุณกังวล #Start a debate to share opinions with others about the topics you are concerned about.
+        title: ช่วยนโยบาย
+        description: เปิดการนโยบายเพื่อแชร์ความคิดเห็นอื่นๆกับหัวข้อที่คุณกังวล #Start a debate to share opinions with others about the topics you are concerned about.
         help_text_1: "The space for citizen debates is aimed at anyone who can expose issues of their concern and those who want to share opinions with other people."
         help_text_2: 'To open a debate you need to sign up on %{org}. Users can also comment on open debates and rate them with the "I agree" or "I disagree" buttons found in each of them.'
     new:
       form:
-        submit_button: ส่งข้อเสนอ
+        submit_button: ส่งนโยบาย
       more_info: การอภิปรายทำงานอย่างไร
       recommendation_four: Enjoy this space and the voices that fill it. It belongs to you too.
       recommendation_one: Do not use capital letters for the debate title or for whole sentences. On the internet, this is considered shouting. And nobody likes being shouted at.
       recommendation_three: Ruthless criticism is very welcome. This is a space for reflection. But we recommend that you stick to elegance and intelligence. The world is a better place with these virtues in it.
       recommendation_two: การอภิปรายหรือความคิดเห็นใด ๆ ที่กระทำที่ผิดต่อกฎหมายจะถูกลบ, รวมทั้งผู้ที่ตั้งใจจะก่อความวุ่นวายพื้นที่อภิปราย หรืออย่างอื่นที่ไม่ถูกต้อง #Anything else is allowed.
       recommendations_title: ข้อแนะนำในการสร้างอภิปราย
-      start_new: ส่งข้อเสนอ
+      start_new: ส่งนโยบาย
     show:
       author_deleted: ผู้ใช้ถูกลบ
       comments:
@@ -149,7 +149,7 @@ th:
       author: ผู้เขียน
     update:
       form:
-        submit_button: บันทึกข้อเสนอ
+        submit_button: บันทึกนโยบาย
     show_dialog: ไม่ต้องแสดงอีก
   errors:
     messages:
@@ -160,14 +160,14 @@ th:
     accept_terms: ฉันเข้าใจและยอมรับ %{policy} และ %{conditions} ก่อนการโพสต์
     accept_terms_title: ฉันยอมรับนโยบายความเป็นส่วนตัวและข้อกำหนดและเงื่อนไขการใช้งาน
     conditions: เงื่อนไขการใช้
-    debate: ข้อเสนอ
+    debate: นโยบาย
     direct_message: ข้อความส่วนตัว
     error: ข้อผิดพลาด
     errors: ข้อผิดพลาด
     not_saved: "ข้อมูล %{resource} ไม่ถูกต้อง <br>โปรดตรวจสอบช่องที่ทำเครื่องหมายไว้เพื่อทราบวิธีแก้ไข:"
     policy: ข้อตกลงความเป็นส่วนตัว
     banner: แบนเนอร์
-    proposal: ข้อเสนอ
+    proposal: นโยบาย
     proposal_notification: การแจ้งเตือน
     budget/investment: การลงทุน
     budget/group: กลุ่มงบประมาณ
@@ -205,8 +205,8 @@ th:
       proposal_totals:
         active_resources: ทรัพยากรที่ใช้งานอยู่
         community: ผู้เข้าร่วมในชุมชนของคุณ
-        show_proposal: แสดงข้อเสนอ
-        preview_proposal: ดูตัวอย่างข้อเสนอ
+        show_proposal: แสดงนโยบาย
+        preview_proposal: ดูตัวอย่างนโยบาย
         current_goal: เป้าหมายปัจจุบัน
         supports:
           zero: ไม่รองรับ
@@ -224,7 +224,7 @@ th:
       participation_text: นโยบายคุ้มครองข้อมูลส่วนบุคคล (Privacy Policy)
       participation_title: Participation
       privacy: Privacy Policy
-      subtitle: สื่ออิเล็กทรอนิกส์ของพรรคก้าวไกลนี้ ได้รับการอุดหนุนงบประมาณจากกองทุนเพื่อการพัฒนาพรรคการเมือง ปี พ.ศ. 2565 ผลิตโดย บริษัท สเปกเตอร์ ซี จำกัด จำนวนที่ผลิต 1 ชิ้น งบประมาณ 150,000 บาท ผลิตวันที่ 1 สิงหาคม 2565
+      subtitle: "เว็บไซต์ และเนื้อหาบางส่วนบนเว็บไซต์แห่งนี้ เป็นช่องทางหาเสียงผ่านสื่ออิเล็กทรอนิกส์ ที่ได้แจ้งไว้ต่อคณะกรรมการการเลือกตั้ง (กกต.) ตามประกาศและระเบียบที่กกต.กำหนด ซึ่งถูกผลิตโดย: นายธัญธร ธนินวัฒนาธร ที่อยู่: 22 ซอยเพชรเกษม 47/2 แขวง/เขตบางแค กทม. 10160 จำนวน: 1 เว็บไซต์ วัน-เวลาที่ผลิต: ตามที่ปรากฏบนเว็บไซต์"
     header:
       home: หน้าหลัก
       administration_menu: เมนู
@@ -240,7 +240,7 @@ th:
       my_account_link: บัญชีของฉัน
       my_activity_link: เนื้อหาของฉัน
       open_gov: รัฐเปิดเผย
-      proposals: ข้อเสนอ
+      proposals: นโยบาย
       poll_questions: โหวต
       budgets: งบประมาณแบบมีส่วนร่วม
       notification_item:
@@ -273,8 +273,8 @@ th:
       notifiable_hidden: ทรัพยากรนี้ไม่สามารถใช้ได้อีกต่อไป
   map:
     title: "อำเภอ"
-    proposal_for_district: "เริ่มข้อเสนอสำหรับเขตของคุณ"
-    start_proposal: สร้างข้อเสนอ
+    proposal_for_district: "เริ่มนโยบายสำหรับเขตของคุณ"
+    start_proposal: สร้างนโยบาย
   omniauth:
     facebook:
       sign_in: เข้าสู่ระบบด้วย Facebook
@@ -302,29 +302,29 @@ th:
   proposals:
     create:
       form:
-        submit_button: สร้างข้อเสนอ
+        submit_button: สร้างนโยบาย
     created:
       title: ยินดีด้วย! คุณได้ดำเนินการขั้นตอนแรก
-      motivation: "สิ่งสำคัญคือต้องเตรียมแคมเปญเปิดตัวเพื่อให้ข้อเสนอของคุณประสบความสำเร็จ"
-      motivation_2: "<strong>หากคุณต้องการคำแนะนำในการจัดเตรียมสิ่งพิมพ์ ให้ทิ้งข้อเสนอของคุณไว้เป็นฉบับร่าง แล้วเราจะแนะนำคุณ</strong>"
-      publish: ไม่ ฉันต้องการเผยแพร่ข้อเสนอ
+      motivation: "สิ่งสำคัญคือต้องเตรียมแคมเปญเปิดตัวเพื่อให้นโยบายของคุณประสบความสำเร็จ"
+      motivation_2: "<strong>หากคุณต้องการคำแนะนำในการจัดเตรียมสิ่งพิมพ์ ให้ทิ้งนโยบายของคุณไว้เป็นฉบับร่าง แล้วเราจะแนะนำคุณ</strong>"
+      publish: ไม่ ฉันต้องการเผยแพร่นโยบาย
       dashboard: ใช่ ฉันต้องการความช่วยเหลือและฉันจะเผยแพร่ในภายหลัง
-      preview_title: นี่คือลักษณะของข้อเสนอของคุณเมื่อคุณเผยแพร่
+      preview_title: นี่คือลักษณะของนโยบายของคุณเมื่อคุณเผยแพร่
     share:
       improve_it: ปรับปรุงแคมเปญของคุณและรับการสนับสนุนเพิ่มเติม
       dashboard: ดูข้อมูลเพิ่มเติม
-      message: "ฉันสนับสนุนข้อเสนอ %{title} ใน %{handle}. หากคุณสนใจสนับสนุนด้วยเช่นกัน!"
+      message: "ฉันสนับสนุนนโยบาย %{title} ใน %{handle}. หากคุณสนใจสนับสนุนด้วยเช่นกัน!"
     edit:
-      editing: แก้ไขข้อเสนอ
+      editing: แก้ไขนโยบาย
       form:
-        submit_button: บันทึกข้อเสนอ
-      show_link: ดูข้อเสนอ
+        submit_button: บันทึกนโยบาย
+      show_link: ดูนโยบาย
     retire_form:
-      title: ถอนข้อเสนอ
-      warning: "หากคุณถอนข้อเสนอ ข้อเสนอจะยังคงยอมรับการสนับสนุน, แต่จะถูกลบออกจากรายการหลักและข้อความจะปรากฏแก่ผู้ใช้ทั้งหมดที่ระบุว่าผู้เขียนเห็นว่าข้อเสนอไม่ควรได้รับการสนับสนุนอีกต่อไป"
+      title: ถอนนโยบาย
+      warning: "หากคุณถอนนโยบาย นโยบายจะยังคงยอมรับการสนับสนุน, แต่จะถูกลบออกจากรายการหลักและข้อความจะปรากฏแก่ผู้ใช้ทั้งหมดที่ระบุว่าผู้เขียนเห็นว่านโยบายไม่ควรได้รับการสนับสนุนอีกต่อไป"
       retired_reason_blank: ตัวเลือก
-      retired_explanation_placeholder: อธิบายสั้นๆ ว่าทำไมคุณถึงคิดว่าข้อเสนอนี้ไม่ควรได้รับการสนับสนุนมากกว่านี้
-      submit_button: ถอนข้อเสนอ
+      retired_explanation_placeholder: อธิบายสั้นๆ ว่าทำไมคุณถึงคิดว่านโยบายนี้ไม่ควรได้รับการสนับสนุนมากกว่านี้
+      submit_button: ถอนนโยบาย
     retire_options:
       duplicated: ซ้ำ
       started: กำลังดำเนินการ
@@ -336,7 +336,7 @@ th:
       proposal_summary_note: "(สูงสุด 200 ตัวอักษร)"
       proposal_video_url_note: คุณสามารถเพิ่มลิงก์ไปยัง YouTube หรือ Vimeo
       tag_category_label: "หมวดหมู่"
-      tags_instructions: "แท็กข้อเสนอนี้ คุณสามารถเลือกจากหมวดหมู่ที่เสนอหรือเพิ่มของคุณเอง"
+      tags_instructions: "แท็กนโยบายนี้ คุณสามารถเลือกจากหมวดหมู่ที่เสนอหรือเพิ่มของคุณเอง"
       tags_label: แท็ก
       tags_placeholder: "ป้อนแท็กที่คุณต้องการใช้ โดยคั่นด้วยเครื่องหมายจุลภาค (',')"
       map_location: "ที่ตั้งแผนที่"
@@ -353,18 +353,18 @@ th:
         archival_date: เก็บถาวร
         recommendations: คำแนะนำ
       recommendations:
-        without_results: ไม่มีข้อเสนอที่เกี่ยวข้องกับความสนใจของคุณ
+        without_results: ไม่มีนโยบายที่เกี่ยวข้องกับความสนใจของคุณ
         without_interests: ไม่พบกระทู้ที่เกี่ยวข้อง
-        disable: "คำแนะนำสำหรับข้อเสนอจะหยุดแสดงหากคุณยกเลิก คุณสามารถเปิดใช้งานได้อีกครั้งใน หน้าบัญชีของเพจ"
+        disable: "คำแนะนำสำหรับนโยบายจะหยุดแสดงหากคุณยกเลิก คุณสามารถเปิดใช้งานได้อีกครั้งใน หน้าบัญชีของเพจ"
         actions:
-          success: "คำแนะนำสำหรับข้อเสนอถูกปิดใช้งานสำหรับบัญชีนี้แล้ว"
-          error: "เกิดข้อผิดพลาด. โปรดไปที่หน้า บัญชีของเพจ เพื่อปิดใช้งานคำแนะนำสำหรับข้อเสนอด้วยตนเอง"
-      retired_proposals: ถอนข้อเสนอ
-      retired_proposals_link: "ข้อเสนอถอนโดยผู้เขียน"
-      selected_proposals: ข้อเสนอที่เลือก
-      selected_proposals_link: ดูข้อเสนอที่เลือก
-      archived_proposals: ข้อเสนอที่เก็บถาวร
-      proposals_lists: รายการข้อเสนอ
+          success: "คำแนะนำสำหรับนโยบายถูกปิดใช้งานสำหรับบัญชีนี้แล้ว"
+          error: "เกิดข้อผิดพลาด. โปรดไปที่หน้า บัญชีของเพจ เพื่อปิดใช้งานคำแนะนำสำหรับนโยบายด้วยตนเอง"
+      retired_proposals: ถอนนโยบาย
+      retired_proposals_link: "นโยบายถอนโดยผู้เขียน"
+      selected_proposals: นโยบายที่เลือก
+      selected_proposals_link: ดูนโยบายที่เลือก
+      archived_proposals: นโยบายที่เก็บถาวร
+      proposals_lists: รายการนโยบาย
       retired_links:
         all: ทั้งหมด
         duplicated: ซ้ำ
@@ -374,48 +374,48 @@ th:
         other: อื่นๆ
       search_form:
         button: ค้นหา
-        placeholder: ค้นหาข้อเสนอ...
+        placeholder: ค้นหานโยบาย...
         title: ค้นหา
       search_results:
         one: "คำว่า <strong>'%{search_term}'</strong>"
         other: "คำว่า <strong>'%{search_term}'</strong>"
-      select_order_long: "คุณกำลังดูข้อเสนอตาม:"
-      start_proposal: สร้างข้อเสนอ
-      title: ข้อเสนอ
-      top_link_proposals: ข้อเสนอที่ได้รับการสนับสนุนมากที่สุดตามหมวดหมู่
+      select_order_long: "คุณกำลังดูนโยบายตาม:"
+      start_proposal: สร้างนโยบาย
+      title: นโยบาย
+      top_link_proposals: นโยบายที่ได้รับการสนับสนุนมากที่สุดตามหมวดหมู่
       section_header:
-        icon_alt: ไอคอนข้อเสนอ
-        title: ข้อเสนอ
-        help: ความช่วยเหลือเกี่ยวกับข้อเสนอ
+        icon_alt: ไอคอนนโยบาย
+        title: นโยบาย
+        help: ความช่วยเหลือเกี่ยวกับนโยบาย
       section_footer:
-        title: ความช่วยเหลือเกี่ยวกับข้อเสนอ
-        description: ข้อเสนอของพลเมืองเป็นโอกาสให้เพื่อนบ้านและกลุ่มต่างๆ ในการตัดสินใจโดยตรงว่าพวกเขาต้องการให้เมืองของตนเป็นอย่างไร หลังจากได้รับการสนับสนุนที่เพียงพอและเสนอให้มีการลงคะแนนเสียงของประชาชน
+        title: ความช่วยเหลือเกี่ยวกับนโยบาย
+        description: นโยบายของพลเมืองเป็นโอกาสให้เพื่อนบ้านและกลุ่มต่างๆ ในการตัดสินใจโดยตรงว่าพวกเขาต้องการให้เมืองของตนเป็นอย่างไร หลังจากได้รับการสนับสนุนที่เพียงพอและเสนอให้มีการลงคะแนนเสียงของประชาชน
     new:
       form:
-        submit_button: สร้างข้อเสนอ
-      more_info: ข้อเสนอพลเมืองทำงานอย่างไร
-      recommendation_one: อย่าใช้ตัวพิมพ์ใหญ่สำหรับชื่อข้อเสนอหรือทั้งประโยค บนอินเทอร์เน็ตนี่ถือเป็นการทอกซิน และไม่ชอบให้ใครมาด่า
+        submit_button: สร้างนโยบาย
+      more_info: นโยบายพลเมืองทำงานอย่างไร
+      recommendation_one: อย่าใช้ตัวพิมพ์ใหญ่สำหรับชื่อนโยบายหรือทั้งประโยค บนอินเทอร์เน็ตนี่ถือเป็นการทอกซิน และไม่ชอบให้ใครมาด่า
       recommendation_three: เพลิดเพลินไปกับพื้นที่นี้และเสียงที่เติมเต็ม มันเป็นของคุณเช่นกัน
-      recommendation_two: ข้อเสนอหรือความคิดเห็นใดๆ ที่เสนอแนะการกระทำที่ผิดกฎหมายจะถูกลบออก เช่นเดียวกับที่ตั้งใจจะก่อวินาศกรรมพื้นที่อภิปราย อนุญาตให้สิ่งอื่นใด
-      recommendations_title: คำแนะนำในการสร้างข้อเสนอ
-      start_new: สร้างข้อเสนอใหม่
+      recommendation_two: นโยบายหรือความคิดเห็นใดๆ ที่เสนอแนะการกระทำที่ผิดกฎหมายจะถูกลบออก เช่นเดียวกับที่ตั้งใจจะก่อวินาศกรรมพื้นที่อภิปราย อนุญาตให้สิ่งอื่นใด
+      recommendations_title: คำแนะนำในการสร้างนโยบาย
+      start_new: สร้างนโยบายใหม่
     notice:
-      retired: ถอนข้อเสนอแล้ว
-      published: เผยแพร่ข้อเสนอแล้ว
+      retired: ถอนนโยบายแล้ว
+      published: เผยแพร่นโยบายแล้ว
     proposal:
-      created: "คุณได้สร้างข้อเสนอแล้ว!"
+      created: "คุณได้สร้างนโยบายแล้ว!"
       share:
         guide: "ตอนนี้คุณสามารถแชร์เพื่อให้ผู้คนเริ่มสนับสนุนได้"
         edit: "ก่อนที่จะแชร์ คุณสามารถเปลี่ยนข้อความได้ตามต้องการ"
-        view_proposal: ไม่ใช่ตอนนี้ ไปที่ข้อเสนอของฉัน
-      already_supported: คุณได้สนับสนุนข้อเสนอนี้แล้ว แบ่งปัน!
+        view_proposal: ไม่ใช่ตอนนี้ ไปที่นโยบายของฉัน
+      already_supported: คุณได้สนับสนุนนโยบายนี้แล้ว แบ่งปัน!
       comments:
         one: 1 ความคิดเห็น
         other: "%{count} ความคิดเห็น"
         zero: ไม่มีความคิดเห็น
       support: สนับสนุน
       support_label: "สนับสนุน %{proposal}"
-      support_title: สนับสนุนข้อเสนอนี้
+      support_title: สนับสนุนนโยบายนี้
       supports:
         one: 1 สนับสนุน
         other: "%{count} สนับสนุน"
@@ -453,7 +453,7 @@ th:
       draft: Proposal in draft. Cannot yet get supports, nor does it appear in the list of proposals.
     update:
       form:
-        submit_button: บันทึกข้อเสนอ
+        submit_button: บันทึกนโยบาย
   dashboard:
     menu:
       my_proposal: Edit my proposal
@@ -656,7 +656,7 @@ th:
         title: "คำถาม"
         most_voted_answer: "คำตอบที่ได้รับการโหวตมากที่สุด: "
     poll_header:
-      back_to_proposal: กลับไปที่ข้อเสนอ
+      back_to_proposal: กลับไปที่นโยบาย
   poll_questions:
     show:
       vote_answer: "โหวต %{answer}"
@@ -665,8 +665,8 @@ th:
     new:
       title: "ส่งการแจ้งเตือน"
       submit_button: "ส่งการแจ้งเตือน"
-      info_about_receivers: "การแจ้งเตือนนี้จะถูกส่งไปยัง <strong>%{count} ประชาชน</strong> และจะแสดงใน %{proposal_page}.<br> ระบบจะไม่ส่งการแจ้งเตือนทันที ผู้ใช้จะได้รับอีเมลพร้อมการแจ้งเตือนข้อเสนอทั้งหมดเป็นระยะ."
-      proposal_page: "หน้าข้อเสนอ"
+      info_about_receivers: "การแจ้งเตือนนี้จะถูกส่งไปยัง <strong>%{count} ประชาชน</strong> และจะแสดงใน %{proposal_page}.<br> ระบบจะไม่ส่งการแจ้งเตือนทันที ผู้ใช้จะได้รับอีเมลพร้อมการแจ้งเตือนนโยบายทั้งหมดเป็นระยะ."
+      proposal_page: "หน้านโยบาย"
     show:
       back: "กลับไปที่เนื้อหาของฉัน"
   shared:
@@ -715,9 +715,9 @@ th:
           notice: "คุณได้หยุดติดตามโครงการลงทุนนี้แล้ว! <br> คุณจะไม่ได้รับการแจ้งเตือนเกี่ยวกับโครงการนี้อีกต่อไป"
       proposal:
         create:
-          notice: "ตอนนี้คุณกำลังปฏิบัติตามข้อเสนอนี้! <br> เราจะแจ้งให้คุณทราบถึงการเปลี่ยนแปลงที่เกิดขึ้นเพื่อให้คุณได้รับข้อมูลล่าสุด"
+          notice: "ตอนนี้คุณกำลังปฏิบัติตามนโยบายนี้! <br> เราจะแจ้งให้คุณทราบถึงการเปลี่ยนแปลงที่เกิดขึ้นเพื่อให้คุณได้รับข้อมูลล่าสุด"
         destroy:
-          notice: "คุณได้หยุดทำตามข้อเสนอนี้แล้ว! <br> คุณจะไม่ได้รับการแจ้งเตือนเกี่ยวกับข้อเสนอนี้อีกต่อไป"
+          notice: "คุณได้หยุดทำตามนโยบายนี้แล้ว! <br> คุณจะไม่ได้รับการแจ้งเตือนเกี่ยวกับนโยบายนี้อีกต่อไป"
     print:
       print_button: พิมพ์ข้อมูลนี้
     search: ค้นหา
@@ -726,7 +726,7 @@ th:
       debate:
         found:
           one: "มีการโต้เถียงกับคำว่า '%{query}', คุณสามารถเข้าร่วมได้แทนที่จะเปิดใหม่"
-          other: "มีข้อเสนอเรื่อง '%{query}', คุณสามารถเข้าร่วมได้แทนที่จะสร้างใหม่"
+          other: "มีนโยบายเรื่อง '%{query}', คุณสามารถเข้าร่วมได้แทนที่จะสร้างใหม่"
         message: "You are seeing %{limit} of %{count} debates containing the term '%{query}'"
         see_all: "แสดงทั้งหมด"
       budget_investment:
@@ -819,7 +819,7 @@ th:
       deleted_budget_investment: This investment project has been deleted
       proposals: Proposals
       proposals_status: Status
-      debates: ข้อเสนอ
+      debates: นโยบาย
       budget_investments: Budget investments
       comments: ความคิดเห็น
       actions: Actions
@@ -828,8 +828,8 @@ th:
           one: 1 ความคิดเห็น
           other: "%{count} ความคิดเห็น"
         debates:
-          one: 1 ข้อเสนอ
-          other: "%{count} ข้อเสนอ"
+          one: 1 นโยบาย
+          other: "%{count} นโยบาย"
         proposals:
           one: 1 Proposal
           other: "%{count} Proposals"
@@ -839,7 +839,7 @@ th:
         follows:
           one: 1 Following
           other: "%{count} Following"
-      no_activity: ไม่พบข้อเสนอ และ ความคิดเห็นของคุณ
+      no_activity: ไม่พบนโยบาย และ ความคิดเห็นของคุณ
       no_private_messages: "This user doesn't accept private messages."
       private_activity: This user decided to keep the activity list private.
       send_private_message: "ส่งข้อความส่วนตัว"
@@ -870,16 +870,16 @@ th:
   welcome:
     feed:
       most_active:
-        debates: "ข้อเสนอที่มีความเคลื่อนไหวมากที่สุด"
-        proposals: "ข้อเสนอที่มีความเคลื่อนไหวมากที่สุด"
+        debates: "นโยบายที่มีความเคลื่อนไหวมากที่สุด"
+        proposals: "นโยบายที่มีความเคลื่อนไหวมากที่สุด"
         processes: "เปิดกระบวนการ"
       see_all:
-        debates: ดูข้อเสนอทั้งหมด
-        proposals: ดูข้อเสนอทั้งหมด
+        debates: ดูนโยบายทั้งหมด
+        proposals: ดูนโยบายทั้งหมด
         processes: ดูกระบวนการทั้งหมด
       no_items:
-        debates: ไม่มีข้อเสนอในขณะนี้
-        proposals: ไม่มีข้อเสนอในขณะนี้
+        debates: ไม่มีนโยบายในขณะนี้
+        proposals: ไม่มีนโยบายในขณะนี้
         processes: ไม่มีกระบวนการในขณะนี้
       process_label: กระบวนการ
       see_process: ดูกระบวนการ
@@ -887,13 +887,13 @@ th:
       title: จุดเด่น
     recommended:
       title: คำแนะนำที่คุณอาจสนใจ
-      help: "คำแนะนำเหล่านี้สร้างโดยแท็กของข้อเสนอที่คุณกำลังติดตาม"
+      help: "คำแนะนำเหล่านี้สร้างโดยแท็กของนโยบายที่คุณกำลังติดตาม"
       debates:
-        title: ข้อเสนอที่แนะนำ
-        btn_text_link: ข้อเสนอที่แนะนำทั้งหมด
+        title: นโยบายที่แนะนำ
+        btn_text_link: นโยบายที่แนะนำทั้งหมด
       proposals:
-        title: ข้อเสนอที่แนะนำ
-        btn_text_link: ข้อเสนอที่แนะนำทั้งหมด
+        title: นโยบายที่แนะนำ
+        btn_text_link: นโยบายที่แนะนำทั้งหมด
       budget_investments:
         title: แนะนำการลงทุน
       slide: "ดู %{title}"
@@ -922,8 +922,8 @@ th:
     score_positive: "ใช่"
     score_negative: "ไม่ใช่"
     content_title:
-      proposal: "ข้อเสนอ"
-      debate: "ข้อเสนอ"
+      proposal: "นโยบาย"
+      debate: "นโยบาย"
       budget_investment: "งบประมาณการลงทุน"
   admin/widget:
     header:
